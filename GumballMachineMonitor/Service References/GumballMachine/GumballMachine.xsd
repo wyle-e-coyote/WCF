@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/State" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/State" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="NoQuarterState">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:IState">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="NoQuarterState" nillable="true" type="tns:NoQuarterState" />
+  <xs:complexType name="IState">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="StateName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IState" nillable="true" type="tns:IState" />
+  <xs:complexType name="SoldOutState">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:IState">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SoldOutState" nillable="true" type="tns:SoldOutState" />
+  <xs:complexType name="SoldState">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:IState">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SoldState" nillable="true" type="tns:SoldState" />
+  <xs:complexType name="WinnerState">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:IState">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="WinnerState" nillable="true" type="tns:WinnerState" />
+  <xs:complexType name="HasQuarterState">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:IState">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="HasQuarterState" nillable="true" type="tns:HasQuarterState" />
+</xs:schema>

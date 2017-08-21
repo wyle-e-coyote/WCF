@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4d48a755-557a-4eca-b143-175143dff0d1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/GumballMachine" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GumballMachine.wsdl" MetadataType="Wsdl" ID="4d0fc474-f6a6-489c-a184-75e7de289855" SourceId="1" SourceUrl="http://localhost:8000/GumballMachine?wsdl" />
+    <MetadataFile FileName="GumballMachine.xsd" MetadataType="Schema" ID="16d1ff81-c41f-4fb2-b24e-058f5c7a3a4f" SourceId="1" SourceUrl="http://localhost:8000/GumballMachine?xsd=xsd2" />
+    <MetadataFile FileName="GumballMachine1.wsdl" MetadataType="Wsdl" ID="af5b9347-d048-4f9e-969b-94b3b44bc8ef" SourceId="1" SourceUrl="http://localhost:8000/GumballMachine?wsdl=wsdl0" />
+    <MetadataFile FileName="GumballMachine1.xsd" MetadataType="Schema" ID="890e93ae-55ab-40c8-8e24-c92b7b6760af" SourceId="1" SourceUrl="http://localhost:8000/GumballMachine?xsd=xsd0" />
+    <MetadataFile FileName="GumballMachine2.xsd" MetadataType="Schema" ID="5f915fb8-208c-4b1e-85dc-ba0c4ec41370" SourceId="1" SourceUrl="http://localhost:8000/GumballMachine?xsd=xsd1" />
+    <MetadataFile FileName="GumballMachine.disco" MetadataType="Disco" ID="b23d7a8f-3d15-45d7-8b13-16d2233b379c" SourceId="1" SourceUrl="http://localhost:8000/GumballMachine?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
